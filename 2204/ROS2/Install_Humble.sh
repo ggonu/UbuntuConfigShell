@@ -26,3 +26,6 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 # Install ROS2 packages
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y ros-humble-desktop-full ros-dev-tools
+
+# Install Gazebo-ros
+# sudo apt install ros-humble-gazebo-pkgs
